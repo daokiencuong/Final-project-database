@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/index_styles.css">
+    <link rel="stylesheet" href="./assets/font/stylesheet.css">
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+    <title>Group 6 | ACT</title>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header" >
+        <div class="content">
+            <nav class="navbar">
+                <!-- Logo -->
+                <a href="./about_us.html" class="logo">GROUP6 <span class="dot">.</span></a>
+                <!-- Navigation -->
+                <ul class="navigation"">
+                    <li><a href="#home" class="item">Home</a></li>
+                    <li><a href="./reviews.html" class="item">Reviews</a></li>
+                    <li><a href="./user.html" class="item">User</a></li>
+                    <li><a href="./about_us.html" class="item">About Us</a></li>
+                    <li><a href="./add_hotel.html" class="btn">Add Hotel</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <main>
+        <!-- Hero -->
+        <div class="hero" id="home">
+            <div class="content">
+                <div class="hero1">
+                    <h1 class="title"><div class="decor">Find your best hotel</div></h1>
+                    <div class="desc">Enter hotel's name that you want to find</div>
+                    <form action="./assets/php/search.php" target="_blank" method="post" autocomplete="on">
+                        <input type="text" name="hinput" id="hinput" placeholder="Hotel's name">
+                        <input type="submit" value="submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <div class="footer">
+        <div class="content">
+            <div class="footer1">
+                <div class="desc">GROUP6 | ACT</div>
+                <div class="desc">Final Project Database Lab</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
