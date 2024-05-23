@@ -143,7 +143,7 @@ html, body{
     font-family: Roboto;
     font-weight: 900;
     font-size: 4em; /* Example size */
-    background: linear-gradient(300deg, #92ccdd, #c7eff0, #fdc4ec, #ffc2cb);
+    background: linear-gradient(30deg, #4d8df4, #9b72cb, #ff82d9, #e77883);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
